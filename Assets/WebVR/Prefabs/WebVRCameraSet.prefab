@@ -1542,6 +1542,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hand: 1
   inputMap: {fileID: 11400000, guid: b249a0801fba0f74198588a3ecb37bbe, type: 2}
+  simulate3dof: 0
+  controllerOffset: {x: -0.15, y: -0.3, z: 0.4}
+  isActive: 0
   index: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
@@ -1597,6 +1600,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hand: 2
   inputMap: {fileID: 11400000, guid: a760722b59f73e94287ddd9ffc44440f, type: 2}
+  simulate3dof: 0
+  controllerOffset: {x: 0.15, y: -0.3, z: 0.4}
+  isActive: 0
   index: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
