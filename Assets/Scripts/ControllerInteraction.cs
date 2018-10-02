@@ -14,8 +14,8 @@ public class ControllerInteraction : MonoBehaviour
     private GameObject cursor;
     private Renderer cursorRend;
 
-    private Color cursorColor;
-    private Color cursorOverColor;
+    public Color cursorColor;
+    public Color cursorOverColor;
 
     private float cursorDrawDistance = 100;
 
@@ -29,8 +29,6 @@ public class ControllerInteraction : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         cursor = transform.Find("Cursor").gameObject;
         cursorRend = cursor.GetComponent<Renderer>();
-        cursorColor = Color.blue;
-        cursorOverColor = Color.red;
     }
 
     void Update()
